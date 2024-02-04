@@ -13,7 +13,7 @@ ssh -i <PATH_TO_KEY> root@<VPS_IP>
 ```
 ## Update system
 ```
-apt update && apt upgrade
+apt update && apt upgrade -y
 ```
 
 ## Install Wireguard server
