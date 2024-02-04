@@ -3,6 +3,14 @@
 ## Prerequisites
 VPS with Ubuntu 22.04
 
+## Generate keys
+```
+ssh-keygen
+```
+### Login to remote VPS
+```
+ssh -i <PATH_TO_KEY> root@<VPS_IP>
+```
 ## Update system
 ```
 apt update && apt upgrade
